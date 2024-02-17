@@ -1,0 +1,51 @@
+header{
+	width: 100%;
+}
+
+header>h1:first-of-type{
+	cursor:pointer;
+}
+
+header>h1:first-of-type a{
+	text-decoration: none;
+	color:black;
+}
+
+h1{
+    font-size: 3.5rem;
+    display: block;
+    font-family: MilkMango;
+}
+
+.header{
+    width: 100%;
+    background: #ffa500;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding:3rem 10%;
+}
+
+.headerlink{
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: MilkMango;
+    padding:11px;
+}
+  
+.headerlink:hover{
+    background-color: black;
+    color: orange;
+    border-radius: 30px;
+}
+
+@media (max-width:600px){
+    h1,.headerlink{
+        font-size: 2rem;
+    }
+    .header{
+        padding:2rem 5%;
+    }
+}

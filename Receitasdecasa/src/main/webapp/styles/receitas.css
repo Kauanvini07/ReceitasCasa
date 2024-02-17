@@ -1,0 +1,67 @@
+h2{
+  font-family: MilkMango;
+  font-size: 2.2rem;
+  color: var(--primary-color);
+  margin-top: 4rem;
+  margin-bottom:2rem;
+  grid-column: 1/5;
+}
+
+.categorias{
+  text-align: center;
+}
+
+.categoria-item {
+  display: inline-block;
+  margin: 1.5rem;
+  vertical-align: top;
+}
+
+.categoria-item img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.categoria-item p {
+  font-size: 2rem;
+  font-family: var(--subtitle-font);
+}
+
+.receitasRecentes{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.quadroReceita{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fff5cc;
+  width: 30rem;
+  height: 18rem;
+  padding:1rem;
+}
+
+.tituloReceita{
+  color: var(--primary-color);
+  font-size: 3rem;
+  font-family: var(--subtitle-font);
+  list-style: none;
+}
+
+.usuarioPub{
+	font-size: 1.2rem;
+	color:var(--gray-text-color);
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.qntComentarios,.dataPub{
+	font-size: 1.8rem;
+	font-family: var(--text-font);
+}

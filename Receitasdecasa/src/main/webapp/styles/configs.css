@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: MilkMango;
+    src: url(Milk\ Mango.ttf);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-page);
+}
+
+:root {
+    font-size: 62.5%;
+    
+    --title-font: 'MilkMango', sans-serif;
+    --subtitle-font: 'Montserrat', sans-serif;
+    --secondary-font:'Bebas Neue', sans-serif;
+    --text-font: 'Roboto', sans-serif;
+    --inputs-font:'Bitter', sans-serif;
+
+    --light-text-color: #FFFFFF;
+    --light-secondary-text-color: #D1D1D1;
+    --dark-text-color: #000000;
+    --gray-text-color:#585858;
+
+    --primary-color: #ffa500;
+    --background-page:#FAFAFA;
+}
+
+button{
+    font-family: MilkMango;
+    text-align: center;  
+    width: 12rem;  
+    height: 3.5rem;    
+    cursor: pointer;
+    border-color: var(--primary-color);
+    background-color:var(--primary-color);
+    color:#fff;
+    border-radius: .4rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    max-width: 108rem;
+}
